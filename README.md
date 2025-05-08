@@ -24,3 +24,7 @@ Ensures only eligible promotions are recommended per customer segment
 Evaluation
 Metrics: Average reward, engagement rate, sales & margin impact             
 DQN showed faster convergence and better stability than PPO
+
+
+## Conclusion 
+This project demonstrates a real-time, intelligent offer recommendation system using machine learning. It analyzes user behavior and historical data to suggest personalized offers, improving user engagement and business ROI. With a flexible architecture and scalable design, it can be deployed across industries like e-commerce, banking, telecom, and more.
