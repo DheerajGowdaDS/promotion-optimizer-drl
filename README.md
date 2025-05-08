@@ -15,12 +15,12 @@ Action: Select one of 10 promotions (PR100–PR109) based on segment eligibility
 Reward: Combines sales (log1p(qty × price)), profit, engagement, and retention
 
 Algorithms Used
-DQN: Value-based Deep Q-Network with experience replay & target networks
+DQN: Value-based Deep Q-Network with experience replay & target networks               
 PPO: Policy-gradient approach using softmax with action masking
 
 Action Masking
 Ensures only eligible promotions are recommended per customer segment
 
 Evaluation
-Metrics: Average reward, engagement rate, sales & margin impact
+Metrics: Average reward, engagement rate, sales & margin impact             
 DQN showed faster convergence and better stability than PPO
