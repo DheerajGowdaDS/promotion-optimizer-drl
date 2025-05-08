@@ -10,8 +10,8 @@ How can reinforcement learning be used to dynamically assign personalized promot
 We developed a Reinforcement Learning (RL)-based Promotion Recommendation System to personalize offers for customers based on their profiles and historical behavior. The system aims to maximize long-term rewards like sales uplift, profit, and customer retention.
 
 ## Problem as MDP
-State: Customer features (e.g., age, income, loyalty, churn score)
-Action: Select one of 10 promotions (PR100–PR109) based on segment eligibility
+State: Customer features (e.g., age, income, loyalty, churn score)                 
+Action: Select one of 10 promotions (PR100–PR109) based on segment eligibility               
 Reward: Combines sales (log1p(qty × price)), profit, engagement, and retention
 
 Algorithms Used
